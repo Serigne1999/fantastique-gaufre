@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/88f71184c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" name="" value="" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label for=""><img src="gta1.png" alt="" srcset="" class="logo"></label>
+            <h1>Africa global technologie</h1>
+            <ul>
+                <li><a class="active" href="#">Acceuil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Qui somme nous</a></li>
+
+            </ul>
+        </nav>
+        <section class="description">
+            <h1>qui sommes nous</h1>
+            <article class="team">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate ipsam quisquam libero nam
+                    dolor optio nostrum commodi exercitationem voluptate! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Eaque culpa provident asperiores temporibus voluptatum eligendi voluptates animi
+                    quod architecto, quae, quas labore sed tempora, unde ea officia rerum modi? Amet. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Quae, quia sequi nobis iusto quam praesentium a voluptatibus
+                    ipsum odio velit laboriosam repudiandae blanditiis, iste, aperiam nostrum nisi temporibus nam quod.
+                </p>
+            </article>
+            <a href="index.html" target="_blank" class="btnv">En savoir plus</a>
+        </section>
+    </header>
+    <main>
+        <h1>Nos services</h1>
+        <artcile class="services">
+            <div class="product">
+                <img src="images/code.jpg" alt="" srcset="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae placeat facilis expedita
+                    eligendi! Temporibus, natus? Dignissimos voluptate eveniet, repellat repudiandae rem minus molestiae
+                    eos fuga magni explicabo quas maiores voluptas!
+                </p>
+            </div>
+            <div class="product">
+                <img src="images/network.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae placeat facilis expedita
+                    eligendi! Temporibus, natus? Dignissimos voluptate eveniet, repellat repudiandae rem minus molestiae
+                    eos fuga magni explicabo quas maiores voluptas!
+                </p>
+            </div>
+            <div class="product">
+                <img src="images/security.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae placeat facilis expedita
+                    eligendi! Temporibus, natus? Dignissimos voluptate eveniet, repellat repudiandae rem minus molestiae
+                    eos fuga magni explicabo quas maiores voluptas!
+                </p>
+            </div>
+            <div class="product">
+                <img src="images/sale.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae placeat facilis expedita
+                    eligendi! Temporibus, natus? Dignissimos voluptate eveniet, repellat repudiandae rem minus molestiae
+                    eos fuga magni explicabo quas maiores voluptas!
+                </p>
+            </div>
+            <div class="product">
+                <img src="images/tech.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae placeat facilis expedita
+                    eligendi! Temporibus, natus? Dignissimos voluptate eveniet, repellat repudiandae rem minus molestiae
+                    eos fuga magni explicabo quas maiores voluptas!
+                </p>
+            </div>
+        </artcile>
+    </main>
+    <footer>
+        <div class="content-footer">
+            <div class="bloc link">
+                <h2>Nos reseaux</h2>
+                <i><a href="">whatsapp</a></i> <br>
+                <i><a href="">whatsapp</a></i> <br>
+                <i><a href="">whatsapp</a></i> <br>
+                <i><a href="">whatsapp</a></i> <br>
+                <i><a href="">whatsapp</a></i><br>
+                <i><a href="">whatsapp</a></i>
+            </div>
+            <div class=" bloc horaire">
+                <h2>Nos horaires</h2>
+                        <i>✅Lundi : 09h 10h</i><br>
+                        <i>✅Lundi : 09h 10h</i><br>
+                        <i>✅Lundi : 09h 10h</i><br>
+                        <i>✅Lundi : 09h 10h</i><br>
+                        <i>✅Lundi : 09h 10h</i><br>
+                        <i>✅Lundi : 09h 10h</i><br>
+                        <i>✅Lundi : 09h 10h</i><br>
+            </div>
+            <div class="bloc blog">
+                <h2>Nous contacter</h2>
+                <label for="prenom">Prenom</label>
+                <input type="text" placeholder="Entrer votre prenom" class="btn" id="prenom"> <br>
+                <label for="nom">Nom</label>
+                <input type="text" value="" placeholder="Entrer votre nom" id="nom">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <a href="" class="submit">Soumettre</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const navigation = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 30) {
+            navigation.classList.add("anim-nav");
+        } else {
+            navigation.classList.remove("anim-nav");
+        }
+    })
+</script>
+<script src="http://ajax.googleapis/ajax/libs/jquery/2.2.0/jequery.min.js"></script>
+
+</html>

@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "montserrat";
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(ordi.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.description h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.description{
+    position: relative;
+}
+
+.anim-nav {
+    background-image: radial-gradient(circle at 85% 1%, hsla(190, 0%, 93%, 0.05) 0%, hsla(190, 0%, 93%, 0.05) 96%, transparent 96%, transparent 100%), radial-gradient(circle at 14% 15%, hsla(190, 0%, 93%, 0.05) 0%, hsla(190, 0%, 93%, 0.05) 1%, transparent 1%, transparent 100%), radial-gradient(circle at 60% 90%, hsla(190, 0%, 93%, 0.05) 0%, hsla(190, 0%, 93%, 0.05) 20%, transparent 20%, transparent 100%), radial-gradient(circle at 79% 7%, hsla(190, 0%, 93%, 0.05) 0%, hsla(190, 0%, 93%, 0.05) 78%, transparent 78%, transparent 100%), radial-gradient(circle at 55% 65%, hsla(190, 0%, 93%, 0.05) 0%, hsla(190, 0%, 93%, 0.05) 52%, transparent 52%, transparent 100%), linear-gradient(135deg, rgb(37, 56, 222), rgb(96, 189, 244));
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.btnv {
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 45%;
+    margin-top: 20px;
+    padding: 20px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+}
+
+nav {
+    background: rgb(150, 222, 240);
+    height: 80px;
+    width: 100%;
+}
+
+nav h1 {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+label .logo {
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-style: none;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a {
+    background: #0082e6;
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+nav a.active,
+a:hover {
+    background: #3e78a5;
+    transition: .5s;
+    color: #fff;
+}
+
+.checkbtn {
+    font-size: 50px;
+    color: #2c3e50;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.team {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 50px;
+    border: 1px solid;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    height: 300px;
+    color: #fff;
+}
+
+main h1 {
+    margin-top: 50px;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services .product {
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    height: 400px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+.content-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    position: relative;
+}
+.bloc{
+    display: block;
+    width: 25%;
+    margin: 0 30px;
+}
+.link{
+    margin-top: -40px;
+}
+.link h2,.horaire h2,.blog h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.link a{
+color:#0082e6 ;
+}.horaire li{
+    list-style: none;
+    color: #0082e6;
+}
+.blog{
+    position: relative;
+    top: 90px;
+    display: inline;
+}
+.blog input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.blog label{
+    display: flex;
+    margin: 0;
+}
+textarea{
+    height: 150px;
+}
+.blog a{
+    display: block;
+    padding: 10px;
+    background:#0082e6;
+    color:#fff;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+/*----------------------------media query-------------------------*/
+@media (max-width: 1300px) {
+    .content-footer{
+        width: 600px;
+        flex-wrap: wrap;
+    }
+    .bloc{
+        margin: 0 0;
+        width: 40%;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 50px;
+    }
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .services .product {
+        border: 1px solid;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        width: 350px;
+        height: 400px;
+        margin: 20px 20px;
+        padding: 20px 20px;
+        border-style: none;
+        border-radius: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    header {
+        height: 100vh;
+        width: 100%;
+        min-width: 300px;
+        max-width: 900px;
+        background-image: url(ordi.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .team {
+        font-size: 15px;
+        text-align: center;
+        padding: 20px 50px;
+        border: 1px solid;
+        border-style: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+        height: 200px;
+
+    }
+
+    .btnv {
+        display: block;
+        position: absolute;
+        left: 33%;
+        margin-top: 20px;
+        padding: 20px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        border-radius: 3px;
+        color: #fff;
+    }
+ 
+    nav h1 {
+        display:inline;
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        text-transform: capitalize;
+        text-align: center;
+        left: 50px;
+    }
+
+}
+
+@media (max-width: 858px) {
+    .content-footer{
+        width: 320px;
+    }
+    .bloc{
+        width: 300px;
+        margin: 30px 30px;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .bloc:nth-child(1){
+        margin-top: 0px;
+    }
+    .checkbtn {
+        display: block;
+    }
+
+    .btnv {
+        display: block;
+        position: absolute;
+        left: 33%;
+        margin-top: 20px;
+        padding: 20px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        border-radius: 3px;
+        color: #fff;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+
+    }
+
+    #check:checked~ul {
+        z-index: 1;
+        left: 0;
+    }
+
+    .team {
+        font-size: 15px;
+        text-align: center;
+        padding: 20px 50px;
+        border: 1px solid;
+        border-style: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+        height: 200px;
+    }
+    nav h1 {
+        display:inline;
+        font-size: 20px;
+        position: absolute;
+        top: 25px;
+        text-transform: capitalize;
+        text-align: center;
+        left: 68px;
+    }
+}
